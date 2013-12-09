@@ -1,0 +1,42 @@
+Solar system
+http://en.wikipedia.org/wiki/List_of_Solar_System_bodies_formerly_considered_planets#Former_classifications
+solar system axis tilt
+http://en.wikipedia.org/wiki/Axial_tilt
+
+Other stars
+http://en.wikipedia.org/wiki/List_of_multiplanetary_systems
+
+If inclination can be determined, the true mass can be obtained from the calculated minimum mass using the following relationship:
+Mtrue = M[min] / 
+
+http://en.wikipedia.org/wiki/Longitude_of_the_ascending_node
+
+#	obliquity		not important
+inclination
+ascending node
+
+#	for Stellar system
+right ascension
+declination
+
+# star spectral classification
+http://en.wikipedia.org/wiki/Stellar_classification
+using Harvard spectral classification -----> Surface Temperature.
+
+
+
+
+To Do List:
+	1.	navigation
+	2.	habitable zone
+	3.	small multiples	( panning?	switching system in the CAVE?		Shaders for border and star and habitable?)
+	4.	binary and trinary star system.
+
+keep constant:
+	getDefaultCamera().addChild(thingsOnTheWall)
+	
+	
+missing stellar
+	82 G. Eridani
+	KEPLER-42
+	Nu2 Lupi

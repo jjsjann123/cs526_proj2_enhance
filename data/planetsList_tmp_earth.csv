@@ -1,0 +1,9 @@
+hostName,planetName,discoverMethod,orbitPeriod[years],semi-MajorAxis[AU],eccentricity,inclination[deg],pl_masse,pl_msinie,pl_rade,pl_rads,pl_disc,rotationPeriod[days],rotationTilt[deg]
+Sun,Mercury,,0.24,0.4,0.206,3.38,0.06,,0.382,,,58.64,0
+Sun,Venus,,0.62,0.72,0.007,3.86,0.82,,0.949,,,-243.02,177.36
+Sun,Earth,,1,1,0.017,7.25,1,,1,,,1,22.4
+Sun,Mars,,1.88,1.52,0.093,5.65,0.11,,0.532,,,1.03,25.19
+Sun,Jupiter,,11.86,5.2,0.048,6.09,317.8,,11.209,,,0.41,3.13
+Sun,Saturn,,29.46,9.54,0.054,5.51,95.2,,9.449,,,0.43,26.73
+Sun,Uranus,,84.01,19.22,0.047,6.48,14.6,,4.007,,,-0.72,97.77
+Sun,Neptune,,164.8,30.06,0.009,6.43,17.2,,3.883,,,0.67,28.32

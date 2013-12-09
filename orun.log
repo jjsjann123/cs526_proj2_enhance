@@ -1,0 +1,352 @@
+omegalib data search paths:
+::: /home/evl/cs526/j_/ff
+::: /data/evl/omegalib-user/core
+omegalib application config lookup:
+::: trying orun/orun.cfg
+::: not found, trying orun.cfg
+::: not found, trying default.cfg
+::: found config: default.cfg
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> OMEGALIB BOOT
+SystemManager::setup
+Opened config file: default.cfg
+SystemManager::setup: systemConfig = evl/lyra-xinerama.cfg
+Opened config file: evl/lyra-xinerama.cfg
+SharedDataServices::registerObject: queuing interp for registration
+!!! WARNING: could not find a local omegalib python installation. 
+Omegalib will attempt to use the system python interpreter (if available)
+PythonInterpreter::addPythonPath: ./
+PythonInterpreter::addPythonPath: /data/evl/omegalib-user/build/bin/
+PythonInterpreter::addPythonPath: /data/evl/omegalib-user/core/modules
+PythonInterpreter: starting interactive shell thread.
+omegaPythonApiInit()
+Python Interpreter initialized.
+SystemManager::setupDisplaySystem: type = Equalizer
+Bezel size: 0.005 0.005
+canvas pixel size: 24588 3072
+ModuleServices::addModule: OmegaViewer
+Service added: NetService
+ServiceManager::initialize
+Event buffer allocated. Max events: 512
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< OMEGALIB BOOT
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> DISPLAY INITIALIZATION
+[EQ] ConfigImpl::ConfigImpl
+[EQ] ConfigImpl::init
+ModuleServices::addModule: EventSharingModule
+Console: adding log listener
+ModuleServices::addModule: console
+Camera controller: wand
+ModuleServices::addModule: CameraController
+SoundManager: Connected to server, will send messages to xenakis.evl.uic.edu on port 57120
+Engine: Checking if sound server is ready at xenakis.evl.uic.edu on port 57120... (Waiting for 5 seconds)
+Engine: Sound server reports ready.
+Death switch timeout: 240 seconds
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< DISPLAY INITIALIZATION
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> APPLICATION LOOP
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+!!! EventSharingModule::share: server not initialized yet. Ignoring call.
+Creating death switch thread
+omegaToolkitPythonApiInit()
+cyclopsPythonApiInit()
+PythonInterpreter::runFile: running default_init.py
+ModuleServices::addModule: MenuManager
+ModuleServices::addModule: UiModule
+UiModule initializing...
+UiModule initialization OK
+Loaded buffer ID 10 with path menu_sounds/menu_load.wav
+Loaded buffer ID 11 with path menu_sounds/menu_closed.wav
+Loaded buffer ID 12 with path menu_sounds/menu_select.wav
+Loaded buffer ID 13 with path menu_sounds/menu_scroll.wav
+
+
+
+---------------------------------------------------------------------
+Welcome to orun!
+	omegalib version 5.1.1
+	To get a list of quick commands type :?
+	Type :? . to list all global symbols
+	Type :? C to list all members of class or variable `C`
+		example :? SceneNode
+	Type :? ./C [prefix] to list global symbols or object members starting with `prefix`
+		example :? . si
+		example :? SceneNode set
+
+
+
+
+PythonInterpreter::runFile: running test2.py
+OSG Plugin Path(s): /data/evl/omegalib-user/build/bin/osg/osgPlugins-3.3.0:/data/evl/omegalib-user/build/bin/osg
+ModuleServices::addModule: OsgModule
+ModuleServices::addModule: SceneManager
+ModelLoaderThread: start
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> SceneManager::loadModel
+Loading model ./model/sphere.obj
+Optimizing model
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< SceneManager::loadModel
+
+Creating vertex shader ./shaders/habit.vert
+Loading shader: ./shaders/habit.vert
+Creating fragment shader ./shaders/habit.frag
+Loading shader: ./shaders/habit.frag
+Creating vertex shader cyclops/common/colored.vert
+Loading shader: cyclops/common/colored.vert
+Creating fragment shader cyclops/common/colored.frag
+Loading shader: cyclops/common/colored.frag
+ModuleServices::addModule: TrackedObject1
+Creating vertex shader star.vert
+Loading shader: star.vert
+Creating fragment shader star.frag
+Loading shader: star.frag
+Creating geometry shader star.geom
+Loading shader: star.geom
+Creating vertex shader ./shaders/background.vert
+Loading shader: ./shaders/background.vert
+Creating fragment shader ./shaders/background.frag
+Loading shader: ./shaders/background.frag
+Creating vertex shader ./shaders/planet.vert
+Loading shader: ./shaders/planet.vert
+Creating fragment shader ./shaders/planet.frag
+Loading shader: ./shaders/planet.frag
+Creating geometry shader ./shaders//planet.geom
+Loading shader: ./shaders//planet.geom
+[None, 'transit', 'imaging', 'timing', 'RV']
+Creating vertex shader ./shaders/star.vert
+Loading shader: ./shaders/star.vert
+Creating fragment shader ./shaders/star.frag
+Loading shader: ./shaders/star.frag
+Creating geometry shader ./shaders/star.geom
+Loading shader: ./shaders/star.geom
+draw   HD 125612
+construct
+Creating vertex shader cyclops/common/textured.vert
+Loading shader: cyclops/common/textured.vert
+Creating fragment shader cyclops/common/textured-emissive.frag
+Loading shader: cyclops/common/textured-emissive.frag
+Creating fragment shader cyclops/common/textured.frag
+Loading shader: cyclops/common/textured.frag
+draw   55 Cancri
+construct
+draw   Kepler-18
+construct
+draw   HD 39194
+construct
+draw   Kepler-33
+construct
+draw   HD 31527
+construct
+draw   47 Uma
+construct
+draw   Kepler-11
+construct
+draw   Gliese 876
+construct
+draw   KOI-94
+construct
+draw   Kepler-37
+construct
+draw   HR 8799
+construct
+draw   HD 9578
+construct
+draw   Gliese 581
+construct
+draw   Kepler-30
+construct
+draw   CoRoT-20
+construct
+draw   HD 69830
+construct
+draw   Kepler-62
+construct
+draw   Kepler-65
+construct
+draw   Kepler-20
+construct
+draw   PSR 1257 12
+construct
+draw   tau Ceti
+construct
+draw   Gliese 676
+construct
+draw   Kepler-68
+construct
+draw   HD 134606
+construct
+draw   HD 204313
+construct
+draw   Kepler-9
+construct
+draw   HD 40307
+construct
+draw   eps Tau
+construct
+draw   HIP 14810
+construct
+draw   HD 37124
+construct
+draw   Upsilon Andromedae
+construct
+draw   HD 181433
+construct
+draw   HD 10180
+construct
+draw   mu Ara
+construct
+draw   Sun
+construct
+draw   Kepler-32
+construct
+draw   KOI-730
+construct
+draw   61 Vir
+construct
+draw   HIP 57274
+construct
+Creating vertex shader cyclops/common/textured.vert.1-eb33bb7b02a98c5b
+Creating fragment shader cyclops/common/textured.frag.1-eb33bb7b02a98c5b
+Creating vertex shader ./shaders/habit.vert.1-eb33bb7b02a98c5b
+Creating fragment shader ./shaders/habit.frag.1-eb33bb7b02a98c5b
+Creating vertex shader cyclops/common/colored.vert.1-eb33bb7b02a98c5b
+Creating fragment shader cyclops/common/colored.frag.1-eb33bb7b02a98c5b
+Creating vertex shader ./shaders/planet.vert.1-eb33bb7b02a98c5b
+Creating fragment shader ./shaders/planet.frag.1-eb33bb7b02a98c5b
+Creating geometry shader ./shaders//planet.geom.1-eb33bb7b02a98c5b
+Creating vertex shader ./shaders/background.vert.1-eb33bb7b02a98c5b
+Creating fragment shader ./shaders/background.frag.1-eb33bb7b02a98c5b
+Creating vertex shader ./shaders/star.vert.1-eb33bb7b02a98c5b
+Creating fragment shader ./shaders/star.frag.1-eb33bb7b02a98c5b
+Creating geometry shader ./shaders/star.geom.1-eb33bb7b02a98c5b
+Creating fragment shader cyclops/common/textured-emissive.frag.1-eb33bb7b02a98c5b
+
+>>>>> PYTHON ERROR!!! Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "test2.py", line 206, in switchSystemInCave
+    newSystem.setVisible(True)
+AttributeError: 'list' object has no attribute 'setVisible'
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< APPLICATION LOOP
+
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> OMEGALIB SHUTDOWN
+ModuleServices::disposeNonCoreModules
+MenuManager::dispose: cleaning up 5 menus
+UiModule::dispose
+Engine: removing render pass UiRenderPass
+Engine: removing render pass OsgRenderPass
+ModelLoaderThread: shutdown
+SceneManager::unload: emptying load queue (0 queued items)
+SceneManager::unload: releasing 44 models
+SceneManager::unload: releasing 7 programs
+SceneManager::unload: releasing 19 programs
+~EngineModule SceneManager
+~EngineModule TrackedObject1
+~Menu contolPanel
+~Menu Submenu
+~Menu Submenu
+~Menu Main Menu
+~Menu Submenu
+Engine::dispose
+ModuleServices::disposeAll
+EventSharingModule::dispose
+~EngineModule OmegaViewer
+~EngineModule EventSharingModule
+~Console: removing log listener
+~EngineModule console
+~EngineModule CameraController
+Engine::dispose: cleaning up 0 cameras
+~PythonInterpreter
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< OMEGALIB SHUTDOWN
+
+
+===================== ReferenceType object leaks follow:
+N8omegaOsg9OsgModuleE: 1
+N7cyclops12SceneManagerE: 1
+N7cyclops7UniformE: 7
+N7omicron12SoundManagerE: 1
+N7cyclops13LightingLayerE: 1
+N5omega4StatE: 4
+N12omegaToolkit2ui5LabelE: 17
+N12omegaToolkit2ui9ContainerE: 3
+N12omegaToolkit8UiModuleE: 1
+N7cyclops18DefaultModelLoaderE: 1
+N12omegaToolkit2ui20DefaultWidgetFactoryE: 1
+N7omicron17AssetCacheManagerE: 1
+N7omicron16SoundEnvironmentE: 1
+N7omicron20FilesystemDataSourceE: 6
+N12omegaToolkit2ui5ImageE: 149
+N7cyclops13ShaderManagerE: 1
+N12omegaToolkit2ui11MenuManagerE: 1
+N5omega9PixelDataE: 10
+N5omega6EngineE: 1
+N5omega17DisplayTileConfigE: 37
+N7cyclops16CompositingLayerE: 1
+N5omega12StatsManagerE: 1

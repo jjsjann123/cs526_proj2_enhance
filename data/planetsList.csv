@@ -1,0 +1,105 @@
+# CONSTRAINT:  where (pl_pnum >= 4,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# CONSTRAINT:  ),,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_hostname:    Host Name,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_letter:      Planet Letter,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_discmethod:  Discovery Method,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_orbper:      Orbital Period [days],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_orbsmax:     Semi-Major Axis [AU],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_orbeccen:    Eccentricity,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_orbincl:     Inclination [deg],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_massj:       Planet Mass [Jupiter],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_msinij:      Planet M*sin(i) [Jupiter],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_radj:        Planet Radius [Jupiter],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_dens:        Planet Density [g/cm**3],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_ttvflag:     TTV Flag,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_kepflag:     Kepler Field Flag,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN st_dist:        Distance [parsec],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN st_logg:        Surface Gravity [log(g)],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN st_lum:         Luminosity [log(Lsolar)],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN st_colorn:      # Colors,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_name:        Planet Name,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_tranflag:    Planet Transit Flag,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_rvflag:      Planet RV Flag,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_imgflag:     Planet Imaging Flag,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_astflag:     Planet Astrometry Flag,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_orbtper:     Time of Periastron [days],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_orblper:     Longitude of Periastron [deg],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_eqt:         Equilibrium Temperature [K],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_masse:       Planet Mass [Earth],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_msinie:      Planet M*sin(i) [Earth],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_rade:        Planet Radius [Earth],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_rads:        Planet Radius [Solar],,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_disc:        Year of Discovery,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_status:      Status,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+# COLUMN pl_mnum:        Number of Moons in System,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+planetName,hostName,planetLetter,discoverMethod,orbitPeriod[day],semi-MajorAxis[AU],Eccentricity,inclination[deg],Mass[Jupiter],M*sin(i)[Jupiter],Radius[Jupiter],pl_ttvflag,pl_kepflag,pl_tranflag,pl_rvflag,pl_imgflag,pl_astflag,pl_orbtper,pl_orblper,pl_eqt,pl_masse,pl_msinie,pl_rade,pl_rads,pl_disc,pl_status,pl_mnum,pl_pelink,pl_edelink
+55 Cnc b,55 Cnc,b,Radial Velocity,14.651,0.1134,0.004,,,0.8,,0,0,0,1,0,0,2453035,110,,,254.25,,,1996,3,0,http://exoplanet.eu/catalog/55_cnc_b/,http://exoplanets.org/detail/55_Cnc_b
+55 Cnc c,55 Cnc,c,Radial Velocity,44.38,0.237,0.07,,,0.165,,0,0,0,1,0,0,2453083,356,,,52.44,,,2004,3,0,http://exoplanet.eu/catalog/55_cnc_c/,http://exoplanets.org/detail/55_Cnc_c
+55 Cnc d,55 Cnc,d,Radial Velocity,4909,5.47,0.02,,,3.53,,0,0,0,1,0,0,2453490,254,,,1121.89,,,2002,3,0,http://exoplanet.eu/catalog/55_cnc_d/,http://exoplanets.org/detail/55_Cnc_d
+55 Cnc e,55 Cnc,e,Radial Velocity,0.736546,0.01583,0,82.5,0.026,,0.194,0,0,1,1,0,0,,90,,8.37,,2.173,0.02,2011,3,0,http://exoplanet.eu/catalog/55_cnc_e/,http://exoplanets.org/detail/55_Cnc_e
+55 Cnc f,55 Cnc,f,Radial Velocity,261.2,0.77,0.32,,,0.172,,0,0,0,1,0,0,2451878,139,,,54.664,,,2007,3,0,http://exoplanet.eu/catalog/55_cnc_f/,http://exoplanets.org/detail/55_Cnc_f
+upsilon And b,upsilon And,b,Radial Velocity,4.617033,0.059222,0.0215,,,0.6876,,0,0,0,1,0,0,2450005.368,324.9,,,218.531,,,1996,3,0,http://exoplanet.eu/catalog/ups_and_b/,http://exoplanets.org/detail/upsilon_And_b
+upsilon And c,upsilon And,c,Radial Velocity,241.258,0.827774,0.2596,,,1.981,,0,0,0,1,0,0,2450157.78,241.7,,,629.595,,,1999,3,0,http://exoplanet.eu/catalog/ups_and_c/,http://exoplanets.org/detail/upsilon_And_c
+upsilon And d,upsilon And,d,Radial Velocity,1276.46,2.51329,0.2987,,,4.132,,0,0,0,1,0,0,2451347.48,258.82,,,1313.22,,,1999,3,0,http://exoplanet.eu/catalog/ups_and_d/,http://exoplanets.org/detail/upsilon_And_d
+upsilon And e,upsilon And,e,Radial Velocity,3848.86,5.24558,0.00536,,,1.059,,0,0,0,1,0,0,2449535.95,7.3,,,336.568,,,2010,3,0,http://exoplanet.eu/catalog/ups_and_e/,
+GJ 581 b,GJ 581,b,Radial Velocity,5.36874,0.04,0,,,0.049,,0,0,0,1,0,0,2454712.62,0,,,15.65,,,2005,3,0,http://exoplanet.eu/catalog/gl_581_b/,http://exoplanets.org/detail/GJ_581_b
+GJ 581 c,GJ 581,c,Radial Velocity,12.9292,0.07,0.17,,,0.017,,0,0,0,1,0,0,2454699.42,-110,,,5.36,,,2005,3,0,http://exoplanet.eu/catalog/gl_581_c/,http://exoplanets.org/detail/GJ_581_c
+GJ 581 d,GJ 581,d,Radial Velocity,66.8,0.22,0.38,,,0.022,,0,0,0,1,0,0,2454603,-33,,,7.09,,,2005,3,0,http://exoplanet.eu/catalog/gl_581_d/,http://exoplanets.org/detail/GJ_581_d
+GJ 581 e,GJ 581,e,Radial Velocity,3.14942,0.03,0,,,0.006,,0,0,0,1,0,0,2454716.8,0,,,1.94,,,2005,3,0,http://voparis-exoplanet-new.obspm.fr/catalog/gl_581_e/,http://exoplanets.org/detail/GJ_581_e
+GJ 667C b,GJ 667C,b,Radial Velocity,7.2004,0.0505,0.13,,,0.018,,0,0,0,1,0,0,,5.7,,,5.6,,,2011,3,0,http://exoplanet.eu/catalog/gj_667c_b/,http://exoplanets.org/detail/GJ_667_C_b
+GJ 667C c,GJ 667C,c,Radial Velocity,28.14,0.125,0.02,,,0.012,,0,0,0,1,0,0,,292.2,,,3.8,,,2011,3,0,http://exoplanet.eu/catalog/gj_667c_c/,http://exoplanets.org/detail/GJ_667_C_c
+GJ 667C d,GJ 667C,d,Radial Velocity,91.61,0.276,0.03,,,0.016,,0,0,0,1,0,0,,40.11,,,5.1,,,2013,3,0,http://exoplanet.eu/catalog/gj_667c_d/,
+GJ 667C e,GJ 667C,e,Radial Velocity,62.24,0.213,0.02,,,0.008,,0,0,0,1,0,0,,28.6,,,2.7,,,2013,3,0,,
+GJ 667C f,GJ 667C,f,Radial Velocity,39.026,0.156,0.03,,,0.008,,0,0,0,1,0,0,,103.1,,,2.7,,,2013,3,0,,
+GJ 667C g,GJ 667C,g,Radial Velocity,256.2,0.549,0.08,,,0.014,,0,0,0,1,0,0,,51.6,,,4.6,,,2013,3,0,,
+GJ 876 b,GJ 876,b,Radial Velocity,61.1166,0.208317,0.0324,59,,2.2756,,0,0,0,1,0,0,2450602.093,50.3,,,723.2235,,,1998,3,0,http://exoplanet.eu/catalog/gliese_876_b/,http://exoplanets.org/detail/GJ_876_b
+GJ 876 c,GJ 876,c,Radial Velocity,30.0881,0.12959,0.25591,59,,0.7142,,0,0,0,1,0,0,2450602.093,48.76,,,226.9846,,,2000,3,0,http://exoplanet.eu/catalog/gliese_876_c/,http://exoplanets.org/detail/GJ_876_c
+GJ 876 d,GJ 876,d,Radial Velocity,1.93778,0.020807,0.207,59,,0.021,,0,0,0,1,0,0,2450602.093,234,,,6.83,,,2005,3,0,http://exoplanet.eu/catalog/gliese_876_d/,http://exoplanets.org/detail/GJ_876_d
+GJ 876 e,GJ 876,e,Radial Velocity,124.26,0.3343,0.055,59,,0.046,,0,0,0,1,0,0,2450602.093,239,,,14.6,,,2010,3,0,http://exoplanet.eu/catalog/gliese_876_e/,http://exoplanets.org/detail/GJ_876_e
+HD 10180 c,HD 10180,c,Radial Velocity,5.75979,0.0641,0.045,,,0.04122,,0,0,0,1,0,0,,332,,,13.1,,,2010,3,0,http://exoplanet.eu/catalog/hd_10180_c/,http://exoplanets.org/detail/HD_10180_c
+HD 10180 d,HD 10180,d,Radial Velocity,16.3579,0.1286,0.088,,,0.03697,,0,0,0,1,0,0,,315,,,11.75,,,2010,3,0,http://exoplanet.eu/catalog/hd_10180_d/,http://exoplanets.org/detail/HD_10180_d
+HD 10180 e,HD 10180,e,Radial Velocity,49.745,0.2699,0.026,,,0.07898,,0,0,0,1,0,0,,166,,,25.1,,,2010,3,0,http://exoplanet.eu/catalog/hd_10180_e/,http://exoplanets.org/detail/HD_10180_e
+HD 10180 f,HD 10180,f,Radial Velocity,122.76,0.4929,0.135,,,0.0752,,0,0,0,1,0,0,,332,,,23.9,,,2010,3,0,http://exoplanet.eu/catalog/hd_10180_f/,http://exoplanets.org/detail/HD_10180_f
+HD 10180 g,HD 10180,g,Radial Velocity,601.2,1.422,0.19,,,0.06733,,0,0,0,1,0,0,,347,,,21.4,,,2010,3,0,http://exoplanet.eu/catalog/hd_10180_g/,http://exoplanets.org/detail/HD_10180_g
+HD 10180 h,HD 10180,h,Radial Velocity,2222,3.4,0.08,,,0.20263,,0,0,0,1,0,0,,174,,,64.4,,,2010,3,0,http://exoplanet.eu/catalog/hd_10180_h/,http://exoplanets.org/detail/HD_10180_h
+HD 40307 b,HD 40307,b,Radial Velocity,4.3123,0.0468,0.2,,,0.0126,,0,0,0,1,0,0,,194.8,,,4,,,2008,3,0,http://exoplanet.eu/catalog/hd_40307_b/,http://exoplanets.org/detail/HD_40307_b
+HD 40307 c,HD 40307,c,Radial Velocity,9.6184,0.0799,0.06,,,0.0208,,0,0,0,1,0,0,,234.9,,,6.6,,,2008,3,0,http://exoplanet.eu/catalog/hd_40307_c/,http://exoplanets.org/detail/HD_40307_c
+HD 40307 d,HD 40307,d,Radial Velocity,20.432,0.1321,0.07,,,0.0299,,0,0,0,1,0,0,,17.2,,,9.5,,,2008,3,0,http://exoplanet.eu/catalog/hd_40307_d/,http://exoplanets.org/detail/HD_40307_d
+HD 40307 e,HD 40307,e,Radial Velocity,34.62,0.1886,0.15,,,0.011,,0,0,0,1,0,0,,303.7,,,3.5,,,2012,3,0,http://exoplanet.eu/catalog/hd_40307_e/,
+HD 40307 f,HD 40307,f,Radial Velocity,51.76,0.247,0.02,,,0.0164,,0,0,0,1,0,0,,355.2,,,5.2,,,2012,3,0,http://exoplanet.eu/catalog/hd_40307_f/,
+HD 40307 g,HD 40307,g,Radial Velocity,197.8,0.6,0.29,,,0.0223,,0,0,0,1,0,0,,91.7,,,7.1,,,2012,3,0,http://exoplanet.eu/catalog/hd_40307_g/,
+HD 160691 b,HD 160691,b,Radial Velocity,643.25,1.497,0.128,,1.676,,,0,0,0,1,0,0,2452365.6,22,,532.661,,,,2000,3,0,http://exoplanet.eu/catalog/mu_ara_b/,http://exoplanets.org/detail/mu_Ara_b
+HD 160691 c,HD 160691,c,Radial Velocity,4205.8,5.235,0.0985,,,1.814,,0,0,0,1,0,0,2452955.2,57.6,,,576.519,,,2004,3,0,http://exoplanet.eu/catalog/mu_ara_c/,http://exoplanets.org/detail/mu_Ara_c
+HD 160691 d,HD 160691,d,Radial Velocity,9.6386,0.09094,0.172,,0.03321,,,0,0,0,1,0,0,2452991.1,212.7,,10.5547,,,,2004,3,0,http://exoplanet.eu/catalog/mu_ara_d/,http://exoplanets.org/detail/mu_Ara_d
+HD 160691 e,HD 160691,e,Radial Velocity,310.55,0.921,0.0666,,0.5219,,,0,0,0,1,0,0,2452708.7,189.6,,165.868,,,,2006,3,0,http://exoplanet.eu/catalog/mu_ara_e/,http://exoplanets.org/detail/mu_Ara_e
+HR 8799 b,HR 8799,b,Imaging,170000,68,,,7,,1.2,0,0,0,0,1,0,,,,2000,,13,0.12,2008,3,0,http://exoplanet.eu/catalog/hr_8799_b/,http://exoplanets.org/detail/HR_8799_b
+HR 8799 c,HR 8799,c,Imaging,69000,38,,,10,,1.2,0,0,0,0,1,0,,,,3000,,13,0.12,2008,3,0,http://exoplanet.eu/catalog/hr_8799_c/,http://exoplanets.org/detail/HR_8799_c
+HR 8799 d,HR 8799,d,Imaging,37000,24,,,10,,1.2,0,0,0,0,1,0,,,,3000,,13,0.12,2008,3,0,http://exoplanet.eu/catalog/hr_8799_d/,http://exoplanets.org/detail/HR_8799_d
+HR 8799 e,HR 8799,e,Imaging,18000,14.5,,,,,,0,0,0,0,1,0,,,,,,,,2010,3,0,http://exoplanet.eu/catalog/hr_8799_e/,http://exoplanets.org/detail/HR_8799_e
+Kepler-11 b,Kepler-11,b,Transit,10.3039,0.091,0.045,89.64,0.006,,0.161,1,1,1,1,0,0,,,,1.9,,1.8,0.017,2010,3,0,http://exoplanet.eu/catalog/kepler-11_b/,http://exoplanets.org/detail/Kepler-11_b
+Kepler-11 c,Kepler-11,c,Transit,13.0241,0.107,0.026,89.59,0.009,,0.256,1,1,1,1,0,0,,,,2.9,,2.87,0.026,2010,3,0,http://exoplanet.eu/catalog/kepler-11_c/,http://exoplanets.org/detail/Kepler-11_c
+Kepler-11 d,Kepler-11,d,Transit,22.6845,0.155,0.004,89.67,0.023,,0.278,1,1,1,1,0,0,,,,7.3,,3.12,0.029,2010,3,0,http://exoplanet.eu/catalog/kepler-11_d/,http://exoplanets.org/detail/Kepler-11_d
+Kepler-11 e,Kepler-11,e,Transit,31.9996,0.195,0.012,88.89,0.025,,0.374,1,1,1,1,0,0,,,,8,,4.19,0.038,2010,3,0,http://exoplanet.eu/catalog/kepler-11_e/,http://exoplanets.org/detail/Kepler-11_e
+Kepler-11 f,Kepler-11,f,Transit,46.6888,0.25,0.013,89.47,0.006,,0.222,1,1,1,1,0,0,,,,2,,2.49,0.023,2010,3,0,http://exoplanet.eu/catalog/kepler-11_f/,http://exoplanets.org/detail/Kepler-11_f
+Kepler-11 g,Kepler-11,g,Transit,118.3807,0.466,0.15,89.87,0.079,,0.297,1,1,1,1,0,0,,,,25,,3.33,0.03,2010,3,0,http://exoplanet.eu/catalog/kepler-11_g/,http://exoplanets.org/detail/Kepler-11_g
+Kepler-20 b,Kepler-20,b,Transit,3.6961219,0.04537,0.32,86.5,0.027,,0.17,0,1,1,1,0,0,,,1014,8.7,,1.91,0.018,2011,3,0,http://exoplanet.eu/catalog/kepler-20_b/,http://exoplanets.org/detail/Kepler-20_b
+Kepler-20 c,Kepler-20,c,Transit,10.854092,0.093,0.4,88.39,0.051,,0.274,0,1,1,1,0,0,,,713,16.1,,3.07,0.028,2011,3,0,http://exoplanet.eu/catalog/kepler-20_c/,http://exoplanets.org/detail/Kepler-20_c
+Kepler-20 d,Kepler-20,d,Transit,77.61184,0.3453,0.6,89.57,0.063,,0.245,0,1,1,1,0,0,,,369,20.1,,2.75,0.025,2011,3,0,http://exoplanet.eu/catalog/kepler-20_d/,http://exoplanets.org/detail/Kepler-20_d
+Kepler-20 e,Kepler-20,e,Transit,6.098493,,0.28,87.5,0.01,,0.077,0,1,1,1,0,0,,,1040,3.08,,0.868,0.008,2011,3,0,http://exoplanet.eu/catalog/kepler-20_e/,http://exoplanets.org/detail/Kepler-20_e
+Kepler-20 f,Kepler-20,f,Transit,19.57706,,0.32,88.68,0.045,,0.092,0,1,1,1,0,0,,,705,14.3,,1.03,0.009,2011,3,0,http://exoplanet.eu/catalog/kepler-20_f/,http://exoplanets.org/detail/Kepler-20_f
+Kepler-32 b,Kepler-32,b,Transit,5.90124,0.05,,,4.1,,0.196,1,1,1,0,0,0,,,,1303,,2.2,0.02,2011,3,0,http://exoplanet.eu/catalog/kepler-32_b/,http://exoplanets.org/detail/Kepler-32_b
+Kepler-32 c,Kepler-32,c,Transit,8.7522,0.09,,,0.5,,0.178,1,1,1,0,0,0,,,,158.9,,2,0.018,2011,3,0,http://exoplanet.eu/catalog/kepler-32_c/,http://exoplanets.org/detail/Kepler-32_c
+Kepler-32 d,Kepler-32,d,Transit,22.7802,0.128,,,,,0.241,0,1,1,0,0,0,,,340,,,2.7,0.025,2012,3,0,http://exoplanet.eu/catalog/kepler-32_d/,http://exoplanets.org/detail/Kepler-32_d
+Kepler-32 e,Kepler-32,e,Transit,2.896,0.0323,,,,,0.134,0,1,1,0,0,0,,,680,,,1.5,0.014,2012,3,0,http://exoplanet.eu/catalog/kepler-32_e/,http://exoplanets.org/detail/Kepler-32_e
+Kepler-32 f,Kepler-32,f,Transit,0.74296,0.013,,,,,0.072,0,1,1,0,0,0,,,1100,,,0.81,0.007,2012,3,0,http://exoplanet.eu/catalog/kepler-32_f/,http://exoplanets.org/detail/Kepler-32_f
+Kepler-33 b,Kepler-33,b,Transit,5.66793,0.0677,0,86.39,,,0.155,1,1,1,1,0,0,,,,,,1.74,0.016,2011,3,0,http://exoplanet.eu/catalog/kepler-33_b/,http://exoplanets.org/detail/Kepler-33_b
+Kepler-33 c,Kepler-33,c,Transit,13.17562,0.1189,0,88.19,,,0.285,1,1,1,1,0,0,,,,,,3.2,0.029,2011,3,0,http://exoplanet.eu/catalog/kepler-33_c/,http://exoplanets.org/detail/Kepler-33_c
+Kepler-33 d,Kepler-33,d,Transit,21.77596,0.1662,0,88.71,,,0.477,1,1,1,1,0,0,,,,,,5.35,0.049,2011,3,0,http://exoplanet.eu/catalog/kepler-33_d/,http://exoplanets.org/detail/Kepler-33_d
+Kepler-33 e,Kepler-33,e,Transit,31.7844,0.2138,0,88.94,,,0.359,1,1,1,1,0,0,,,,,,4.02,0.037,2011,3,0,http://exoplanet.eu/catalog/kepler-33_e/,http://exoplanets.org/detail/Kepler-33_e
+Kepler-33 f,Kepler-33,f,Transit,41.02902,0.2535,0,89.17,,,0.398,1,1,1,1,0,0,,,,,,4.46,0.041,2011,3,0,http://exoplanet.eu/catalog/kepler-33_f/,http://exoplanets.org/detail/Kepler-33_f
+Kepler-62 b,Kepler-62,b,Transit,5.714932,0.0553,,89.2,0.03,,0.117,0,1,1,1,0,0,,,750,9,,1.31,0.012,2013,3,0,http://exoplanet.eu/catalog/kepler-62_b/,http://exoplanets.org/detail/Kepler-62_b
+Kepler-62 c,Kepler-62,c,Transit,12.4417,0.0929,,89.7,0.013,,0.048,0,1,1,1,0,0,,,578,4,,0.54,0.005,2013,3,0,http://exoplanet.eu/catalog/kepler-62_c/,http://exoplanets.org/detail/Kepler-62_c
+Kepler-62 d,Kepler-62,d,Transit,18.16406,0.12,,89.7,0.044,,0.174,0,1,1,1,0,0,,,510,14,,1.95,0.018,2013,3,0,http://exoplanet.eu/catalog/kepler-62_d/,http://exoplanets.org/detail/Kepler-62_d
+Kepler-62 e,Kepler-62,e,Transit,122.3874,0.427,,89.98,0.113,,0.144,0,1,1,1,0,0,,,270,36,,1.61,0.015,2013,3,0,http://exoplanet.eu/catalog/kepler-62_e/,http://exoplanets.org/detail/Kepler-62_e
+Kepler-62 f,Kepler-62,f,Transit,267.291,0.718,,89.9,0.11,,0.126,0,1,1,1,0,0,,,208,35,,1.41,0.013,2013,3,0,http://exoplanet.eu/catalog/kepler-62_f/,http://exoplanets.org/detail/Kepler-62_f
